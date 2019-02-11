@@ -96,18 +96,18 @@
 									</p>
 									<p>&nbsp;</p>
 									<div id="form-messages"></div>
-									<form id="ajax-contact" action="mail.php" method="post" class="comment-form contact">
+									<form id="ajax-contact" action="https://formspree.io/brandonwicka@gmail.com" method="post" class="comment-form contact">
 										<div class="contact-item form-name">
-											<input name="author" value="" type="text" placeholder="Name *" required>
+											<input name="author" value="" name="name" type="text" placeholder="Name *" required>
 										</div>
 										<div class="contact-item form-email">
-											<input name="email" value="" type="text" placeholder="Email *" required>
+											<input name="email" value="" name="email" type="text" placeholder="Email *" required>
 										</div>
 										<div class="contact-item form-url">
-											<input id="url" name="url" value="" type="text" placeholder="Subject *" required>
+											<input id="url" name="url" name="subject" value="" type="text" placeholder="Subject *" required>
 										</div>
 										<div class="contact-item field-full form-message">
-											<textarea name="comment" placeholder="Message *" required></textarea>
+											<textarea name="comment" name="message" placeholder="Message *" required></textarea>
 										</div>
 										<div class="contact-item form-submit">
 											<input name="submit" type="submit" id="submit" class="submit" value="Send Message">
