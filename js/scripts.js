@@ -9,7 +9,7 @@
 'use strict';
 
 // Send email
-$(function() {
+/*$(function() {
     // Get the form.
     var form = $('#ajax-contact');
     // Get the messages div.
@@ -51,7 +51,7 @@ $(function() {
 		    }
 		});
 	});
-});
+});*/
 
 (function ($) {
 	$(document).ready(function () {
