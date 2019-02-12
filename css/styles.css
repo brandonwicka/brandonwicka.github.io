@@ -173,11 +173,19 @@ body {
   margin-bottom: 60px;
 }
 .mobile .menu-mobile {
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   display: inline-block;
   position: fixed;
   z-index: 999;
+  background-color: #ffffff;
+  border-radius: 50%;
+  left: 24px;
+  margin-top: 6px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
 }
 .mobile .menu-mobile .item {
   display: block;
@@ -185,15 +193,18 @@ body {
   height: 2px;
   background-color: #000000;
   position: relative;
+  margin-left: 13px;
 }
 .mobile .menu-mobile .item-1 {
-  top: 23px;
+  top: 17px;
 }
 .mobile .menu-mobile .item-2 {
-  top: 29px;
+  top: 23px;
+  width: 16px;
 }
 .mobile .menu-mobile .item-3 {
-  top: 35px;
+  top: 29px;
+  width: 11px;
 }
 .mobile .logo {
   padding-bottom: 0;
@@ -611,7 +622,7 @@ body {
     left: 0;
     width: 250px;
     z-index: 9999;
-    background-color: #000000;
+    background-color: #ffffff;
     text-align: center;
     -webkit-transform: translateX(-101%);
     -moz-transform: translateX(-101%);
@@ -623,7 +634,7 @@ body {
     transition: transform 0.3s ease;
   }
   .sidebar .logo, .menu-left .sidebar .logo {
-    color: #ffffff;
+    color: #000000;
   }
   .sidebar.active, .menu-left .sidebar.active {
     -webkit-transform: translateX(0);
@@ -636,10 +647,10 @@ body {
     overflow-x: hidden;
   }
   .main-menu a:hover, .menu-left .main-menu a:hover {
-    color: #ffffff !important;
+    color: #000000 !important;
   }
   .main-menu .active a, .menu-left .main-menu .active a {
-    color: #ffffff;
+    color: #000000;
   }
   .main-menu .sub-menu, .menu-left .main-menu .sub-menu {
     display: none;
@@ -669,6 +680,10 @@ body {
   }
   .socialmedia .fa-search {
     color: #ffffff;
+  }
+  .copyright {
+    padding: 0 50px;
+    margin-top: 4px;
   }
   .hide-menu.active {
     visibility: visible;
